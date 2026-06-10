@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+<head>
+<title>Education</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#fff7fa;
+    animation:fadeIn 1.5s;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Header */
+.welcome{
+    width:80%;
+    overflow:hidden;
+    animation:slideDown 1s;
+    align:center;
+}
+
+.welcome{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    overflow:hidden;
+    animation:slideDown 1s;
+}
+
+.welcome img{
+    width:80%; 
+    transition:0.5s;
+}
+
+@keyframes slideDown{
+    from{
+        transform:translateY(-50px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+/* Menu */
+.menu{
+    background:#ffe4ec;
+    text-align:center;
+    padding:15px;
+}
+
+.menu a{
+    text-decoration:none;
+    margin:8px;
+    padding:10px 18px;
+    background:#d9f7ec;
+    border-radius:20px;
+    color:black;
+    font-weight:bold;
+    transition:0.3s;
+    display:inline-block;
+}
+
+.menu a:hover{
+    background:#ff8fab;
+    color:white;
+    transform:scale(1.1);
+}
+
+/* Title */
+.page-title{
+    text-align:center;
+    font-size:40px;
+    margin:30px 0;
+    color:#ff6f91;
+}
+
+/* Section Cards */
+.card{
+    max-width:1000px;
+    margin:20px auto;
+    background:white;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    display:flex;
+    gap:30px;
+    align-items:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.01);
+}
+
+.card img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:20px;
+    border:5px solid #ffd6e0;
+}
+
+.card-text h2{
+    color:#ff6f91;
+    margin-bottom:10px;
+}
+
+.card-text p{
+    text-align:justify;
+    line-height:1.8;
+    color:#555;
+    font-size:16px;
+}
+
+/* Table */
+.table-box{
+    max-width:1000px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#ffb6c1;
+    color:white;
+    padding:12px;
+}
+
+td{
+    border:1px solid #f2f2f2;
+    padding:12px;
+    text-align:left;
+    vertical-align:top;
+}
+
+/* Footer */
+.footer{
+    background:#ffe4ec;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    color:#555;
+}
+
+/* Responsive */
+@media screen and (max-width:768px){
+
+.card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.card img{
+    width:200px;
+    height:200px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="welcome">
+    <img src="photo header/header.jpg" alt="Niers Personal Website">
+</div>
+
+<!-- MENU -->
+<div class="menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About me</a>
+    <a href="education.html">Education</a>
+    <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="interest.html">Interest</a>
+    <a href="skills.html">Skills</a>
+</div>
+
+<!-- TITLE -->
+<div class="page-title"style="color:black;font-size:40px;">📚 <b> My Education Journey</b></div>
+
+<!-- PRIMARY SCHOOL -->
+<div class="card">
+    <img src="photo education/primary.jpg" alt="Primary School">
+
+    <div class="card-text">
+        <h2 style="color:black;">Primary School</h2>
+        <p style="color:black;">
+        I studied at SK Sri Suria 1, Tanah Merah, Kelantan from Year 1 until Year 6. During my primary school years, I learned many basic subjects such as Malay, English, Mathematics and Science. I also learned how to be more disciplined and responsible with my studies. Also, my favourite subject at that time is History beacuse it give me a lot of information about what happen to our country before Independent Day of Malaysia.
+
+        <br><br>
+
+        At the end of primary school, I took the UPSR examination and got 2A, 2B and 2C. This result motivated me to work harder in the future and improve myself in secondary school.
+        </p>
+    </div>
+</div>
+
+<!-- SECONDARY SCHOOL -->
+<div class="card">
+    <img src="photo education/matm.jpg" alt="Secondary School">
+
+    <div class="card-text">
+        <h2 style="color:black;">Secondary School</h2>
+        <p style="color:black;">
+        I continued my studies at Maahad Ahmadi, Tanah Merah, Kelantan from Form 1 until Form 5. In this school, I learned both academic and religious subjects which helped me become more balanced in my education and daily life.
+
+        <br><br>
+
+        In Form 4, I took SMU and achieved 8A out of 10. In Form 5, I took SPM and got 5A.
+
+This experience taught me about discipline, time management and consistency in studies.
+        </p>
+    </div>
+</div>
+
+<!-- UNIVERSITY -->
+<div class="card">
+    <img src="photo education/uitm.jpg" alt="University">
+
+    <div class="card-text">
+        <h2 style="color:black;">University</h2>
+        <p style="color:black;">
+        Currently, I am studying at Universiti Teknologi MARA (UiTM) Cawangan Kedah in Library Science. This course teaches me how information and libraries are managed professionally.
+
+        <br><br>
+
+        So far, I have achieved Dean’s List from Semester 1 until Semester 3. I hope to continue improving and graduate successfully in the future.
+        </p>
+    </div>
+</div>
+
+<!-- TABLE -->
+<div class="table-box">
+
+<h2 style="text-align:center; color:black;">📖 Study & Assignment Timetable</h2>
+
+<table>
+<tr>
+    <th style="color:black;">Day</th>
+    <th style="color:black;">Study Plan</th>
+</tr>
+
+<tr>
+<td>Sunday</td>
+<td>8.00 – 10.00 pm: Revision<br>
+10.00 – 11.00 pm: Organise notes<br>
+Night: Rest & relax </td>
+</tr>
+
+<tr>
+<td>Monday</td>
+<td>8.00 – 10.00 pm: Do assignments<br>
+10.30 – 11.30 pm: Continue assignment</td>
+</tr>
+
+<tr>
+<td>Tuesday</td>
+<td>8.00 – 9.30 pm: Revision notes<br>
+10.00 – 11.00 pm: Practice work</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td>8.00 – 9.30 pm: Study difficult topics<br>
+10.00 – 11.00 pm: Group work</td>
+</tr>
+
+<tr>
+<td>Thursday</td>
+<td>8.00 – 10.00 pm: Finish assignments<br>
+10.30 – 11.30 pm: Review work</td>
+</tr>
+
+<tr>
+<td>Friday</td>
+<td>8.00 – 9.30 pm: Revision<br>
+10.00 – 11.00 pm: Full study</td>
+</tr>
+
+<tr>
+<td>Saturday</td>
+<td>Morning: Revision<br>
+Afternoon: Free time <br>
+Night: Revision</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 Niers's Personal Website | Education Page 💗
+</div>
+
+</body>
+</html>
